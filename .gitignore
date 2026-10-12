@@ -1,0 +1,61 @@
+# ========== 环境变量与密钥（切勿提交真实值） ==========
+.env
+.env.local
+*.pem
+*.key
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ========== 虚拟环境 ==========
+.venv/
+venv/
+env/
+ENV/
+
+# ========== 测试与缓存 ==========
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.iml
+
+# ========== 系统 / 临时文件 ==========
+.DS_Store
+Thumbs.db
+%USERP~1/
+*.tmp
+*.log
+_probe.txt
+
+# ========== 模型缓存 ==========
+.cache/
+models_cache/
+
+# ========== 文档临时文件 ==========
+~$*.docx
+
+# ========== 个人文档与求职材料（隐私，勿上传） ==========
+*.docx
+_gen_*.js
+_doc_*.js
+_read_resume.py
+_resume_text.txt
+
+# ========== 临时调试 / 测试脚本 ==========
+_test_*.py
+_check_syntax.py
+_probe.txt
